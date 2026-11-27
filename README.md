@@ -26,7 +26,7 @@ The coursework contains 16 test cases / TestNG methods:
 | Registration and password | TC07–TC13 | Registration, inactive account login, password change, confirmation mismatch, required-field validation, password-reset flows |
 | Ticket booking | TC14–TC16 | Book ticket, navigate from timetable to booking, cancel ticket |
 
-See TEST_EXECUTION_SUMMARY.md for the historical execution results and observations.
+See [test-plan/railway-test-cases.csv](test-plan/railway-test-cases.csv) for the consolidated 16-case test plan and [TEST_EXECUTION_SUMMARY.md](TEST_EXECUTION_SUMMARY.md) for the historical execution results and observations.
 
 ## Project structure
 ~~~text
@@ -36,6 +36,7 @@ src/
     PageObjects/Railway/   # Page-object classes for Railway pages
   test/java/
     Testcases/Railway/     # TestNG test classes
+test-plan/railway-test-cases.csv
 pom.xml
 Testng.xml
 .env.example
